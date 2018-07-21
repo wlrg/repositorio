@@ -1,0 +1,348 @@
+*{margin: 0px; /*Selector Universal*/
+padding: 0px;}
+
+body {background:#E6E6E6;} /*fondo total de la página*/
+
+#contenedor{
+    width: 1300px;
+    height: 1000px;
+    margin: 0.5em auto; /*Centar el contenido dentro de las margenes*/
+    padding: 0.5em;
+}
+
+#header{
+    height: 10%;
+    width: 1200px;  margin: auto; font-family:Helvetica,Futura,Arial,Verdana,sans-serif; display: inline-block;}
+    #header ul {list-style-type: none;}
+    #header li {display: inline-block; margin-right: 40px;}
+    #header a {font-size: large; color: #585858; padding-bottom: 3px; text-decoration: none;}
+    #header a:hover {color: #01A9DB; border-bottom: none; 
+    }   
+
+#contenido{
+    height: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+#section{height: 12%;
+    width: 25%;
+    margin: 30px;
+    color: #424242;
+    float: left;}
+    #section h1{font-size: xx-large;
+    letter-spacing:  1px; /*espaciado del texto*/
+    text-align:inherit; /*justificar texto */
+    line-height: 150%;} /*Interlineado texto*/
+    #section p{
+    line-height: 200%;
+    font-size: large;
+}
+    .boton_2{
+        text-decoration: none;
+        padding: 30px; /*relleno del botom */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipográfia*/
+        padding-left: 10px;  /*relleno izquierdo*/
+        padding-right: 10px; /*relleno Derecho*/
+        font-weight: normal;
+        font-size: normal;
+        color: white;
+        background-color: #257ac0;
+      }
+
+    .boton_2:hover{
+        color: #0e0849;
+        background-color: #cde3f8;
+        text-decoration: none;}
+
+    .boton_3{
+            text-decoration: none;
+            padding: 15px; /*relleno del botom*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align:justify; /* alineacion*/
+            padding-left: 8px; /*relleno izquierdo*/
+            padding-right: 8px; /*relleno Derecho*/
+            font-weight: small;
+            font-size: small;
+            color: white;
+            background-color: #021320;
+          }
+    .boton_3:hover{
+            color: #f1f0f5e8; /* Al pasar el clic por sobre le boton cambia el color de la fuente*/
+            background-color: #3f4346; /* Al pasar el clic por sobre le boton cambia el color del fondo*/
+            text-decoration: none;
+}
+    
+    
+#aside {width: 70%;
+float: right;
+}
+
+#section2 { 
+    height: 37%;
+    width: 57%;
+    color: #424242;
+    float: right;
+    margin-top: 130px; /* Marge superior */
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    #section2 h1{
+    float: left; 
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    font-size: xx-large;
+    text-align: left;
+    letter-spacing:  1px; /*espaciado del texto*/
+}
+    #section2 p{
+    height: 100%;
+    width: 100%;
+    float: right;
+    margin: 10px;
+    line-height: 110%;
+    font-size: large;
+}
+.boton_4{
+    float: left;
+    text-decoration: none;
+    padding: 15px; /*relleno del botom*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center; /* alineacion*/
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: small;
+    font-size: small;
+    color: white;
+    background-color: #03192bd0;
+  }
+.boton_4:hover{
+    float: left;    
+    color: #f1f0f5e8; /* Al pasar el clic por sobre le boton cambia el color de la fuente*/
+    background-color: #0b538a; /* Al pasar el clic por sobre le boton cambia el color del fondo*/
+    text-decoration: none; /*decoración del texto */
+}
+
+#section3 {
+    width: 100%;
+    color: #424242;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1px;
+    margin-top: 110px; /* Marge superio */
+    text-align: center;} /* centarr texto */
+
+    #section3 h1{font-size: xx-large;
+        letter-spacing:  1px;} /*espaciado del texto*/
+    #section3 p{
+        width: 80%;
+        letter-spacing: 1px; /*espaciado del texto */ 
+    }
+
+#section4{
+    margin-top: 110px; /* Marge superior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;}
+
+    #subseccion2{
+        margin: 1%;
+        width: 30%;
+        display:inline-block; /*centrar los elementos*/
+        text-align: center; /*texto centrado */
+        font-size: small;
+    }
+       
+    #subseccion1{
+        margin: 1%;
+        width: 30%;
+        float: left; /* alinear al derecha */
+        text-align: center; /*texto centrado */
+        font-size: small;  /*tamaño de la fuente pequeño */
+    }
+   
+    #subseccion3{
+        margin: 1%;
+        width: 30%;
+        float: right; /* alinear al derecha */
+        text-align: center; /*texto centrado */
+        font-size: small;  /*tamaño de la fuente pequeño */
+    }
+    
+#section4{
+    margin-top: 110px; /* Marge superior */
+}
+
+#section5{
+    width: 100%;
+    margin-top: 30px; /* Marge superior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    letter-spacing: 1px; /* espaciado del texto */
+    text-align: center;}
+   
+   #section5 h1{
+    width: 80%;
+    font-size: xx-large;
+    }
+   #section5 p{
+       width: 80%;
+   } 
+
+   .boton_5{
+    display:inline-block; /* centrar el contenido */
+    width:30px;
+    height:30px;
+    border: 3px solid #424242;
+    margin-left: 60px; /* margen derecha de los botones */
+    margin-right: 60px; /* margen izquierda de los botones */
+    margin-top: 5px;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size:medium;
+    line-height:32px;
+    text-transform: uppercase;    
+  }
+  .boton_5 a{
+    color: #424242;
+    text-decoration:none; 
+    padding:5px 5px 5px 0;
+    
+  }
+  .boton_5:hover{
+    color: #01A9DB;
+    border: 3px solid #01A9DB;    
+  }
+
+  .par1 {
+    width: 2%;
+    position: absolute;
+    left: -140px;
+    font-size:x-small;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .par2 {
+    width: 2%;
+    position: absolute;
+    left: 52px;
+    font-size:x-small;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .par3 {
+    width: 2%;
+    position: absolute;
+    left: 235px;
+    font-size:x-small;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .par4 {
+    width: 2%;
+    position: absolute;
+    left: 415px;
+    font-size:x-small;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+#section6{ 
+    margin-top: 120px; /* Marge superior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    letter-spacing: 1px; /* espaciado del texto */
+    text-align: center;}
+
+    #section6 h1{
+    margin-top: 60px;
+    width: 80%;
+    font-size: xx-large;
+    }
+    #section6 p{
+    margin-top: 40px;
+    width: 80%;
+    } 
+    .der{
+        float: left;
+        margin-right: 40px;
+    }
+
+    .izq {
+        float: right;
+        margin-left: 40px;
+    }
+
+    .boton_6{
+        width: 300px;
+        height: 20px;
+        display:inline-block; 
+        border-radius: 2px 2px 2px 2px;
+        -moz-border-radius: 2px 2px 2px 2px;
+        -webkit-border-radius: 2px 2px 2px 2px;
+        border: 3px solid #3bdfeb;
+        color: #3bdfeb;
+        text-decoration: none;
+        padding: 15px; /*relleno del botom*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align:center; /* alineacion*/
+        font-weight: small;
+        font-size: small;
+        margin-top: 50px;
+        }
+
+        .boton_6 a{
+        color: #ffffff; /* Al pasar el clic por sobre le boton cambia el color de la fuente*/
+        text-decoration:none;
+        }
+        .boton_6:hover{
+        background-color: #3bdfeb; /* Al pasar el clic por sobre le boton cambia el color del fondo*/
+        text-decoration: none; /*decoración del texto */
+        display:inline-block;
+    }
+#section7{
+    width: 100%;
+    background: #63bde0bb;
+    display:inline-block;
+    margin-top: 70px; /* Marge superior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    letter-spacing: 1px; /* espaciado del texto */
+    text-align: center;}
+
+    #section7 h1{
+    margin-top: 60px;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    font-size: xx-large;
+    }
+    #section7 p{
+    margin-top: 40px;
+    width: 80;
+    margin-left:10%;
+    margin-right: 10%;
+    font-size: small;
+}
+
+#footer {
+    width: 60%;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    letter-spacing: 1px; /* espaciado del texto */
+    text-align: center;
+    font-size: x-small;
+    margin-top: 102px; }
+
+    .logo{
+        width: 17%;
+        display:inline-block;
+        margin-top: 10px;
+    }
