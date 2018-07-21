@@ -332,11 +332,11 @@ float: right;
 
 #footer {
     width: 60%;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 10px;
+    margin-left: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #424242;
-    letter-spacing: 1px; /* espaciado del texto */
+    letter-spacing: 5px; /* espaciado del texto */
     text-align: center;
     font-size: x-small;
     margin-top: 102px; }
